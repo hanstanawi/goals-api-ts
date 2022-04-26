@@ -5,8 +5,8 @@ services:
     restart: always
     container_name: database
     environment:
-      - POSTGRES_USER=hans
-      - POSTGRES_PASSWORD=242312359hH
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres_password
     volumes:
       - postgres:/var/lib/postgresql/data
     ports:
